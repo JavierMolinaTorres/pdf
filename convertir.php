@@ -87,7 +87,6 @@ function render_page(string $message = '', string $type = 'info'): void {
          a{text-decoration:none; color:white}
     </style>';
     echo '</head><body><div class="wrap"><div class="card">';
-    echo '<a href="../pdf.html" onclick="history.back()">&larr;&nbsp;Volver&nbsp;</a>';
     echo '<h1 class="title">Conversor a PDF</h1>';
     echo '<p class="subtitle">Sube un documento <strong>DOC, DOCX, ODT, RTF o TXT</strong> y se convertirá a PDF manteniendo el nombre base.</p>';
 

@@ -1,6 +1,7 @@
 # pdf
 Conjunto de scripts que permiten diversas operaciones relacionadas con archivos PDF
 # firma
+# firma.php
 Este script permite firmar con .p12/.pfx un archivo pdf
 Este script php permite subir un pdf y firmarlo con un certificado pfx/p12 protegido por contraseña . Una vez firmado el pdf se descarga con el sufijo "(firmado)" , sin que nada se guarde en el servidor (ni pdf ni por supuesto el certificado).  Es necesario:
 
